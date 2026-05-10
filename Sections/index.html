@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col items-center ">
+    <header>
+        <nav class="flex justify-between w-screen mt-4">
+            <!-- left section -->
+            <section>
+                <img src="../assets/logo-navbar.png" alt="">
+            </section>
+            <!-- options -->
+            <section>
+                <ul class="flex items-center gap-4 font-semibold">
+                    <li>Features</li>
+                    <li>How it Works</li>
+                    <li>Why its Different</li>
+                </ul>
+            </section>
+            <!-- button  -->
+            <section class="flex items-center">
+                <button class="bg-green-600 text-white font-semibold text-sm border-none rounded-lg px-8 py-2 mr-2">Get
+                    Early Access</button>
+            </section>
+        </nav>
+    </header>
+    <section
+        class="bg-[url('../assets/hero-bg.png')] bg-no-repeat bg-center bg-cover w-full h-[90vh] flex flex-col gap-4 justify-center text-center">
+        <h1 class="text-7xl text-white font-bold ">Structured Thinking,<span
+                class="text-7xl text-green-400 font-bold"><br>Not Just Note-Taking.</span></h1>
+
+        <!-- about section -->
+        <section>
+            <p class="text-white font-semibold text-lg">A private space to store notes, links, and learning summaries —
+                designed to
+                help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+        </section>
+
+        <!-- buttons section -->
+        <section class="flex justify-center items-center gap-4 ">
+            <button class="bg-green-600 text-white rounded-md font-semibold text-lg px-12 py-4 ">Start Building Your
+                Vault <img class="inline" src="../assets/ArrowRight.png" alt=""></button>
+            <button class="bg-none text-white border border-white rounded-md font-semibold text-lg px-12 py-4 ">See How
+                It Works</button>
+        </section>
+    </section>
+
+    <!-- content -->
+
+    <section class="bg-gray-100 w-full text-center mt-8">
+        <h2 class="text-blue-900 font-bold text-5xl">Notes Dont Fail Structure Does</h2>
+        <p class="text-blue-300 font-semibold text-sm mt-2">You're not bad at learning. Your tools just weren't built
+            for how knowledge actually works.</p>
+        <!-- cards container -->
+        <section class="flex gap-2 justify-center mt-8">
+            <!-- card1 -->
+            <section class="bg-white w-80 flex flex-col justify-center items-center gap-4 p-8 rounded-lg">
+                <img class="w-16 h-16 p-4 bg-red-500 rounded-[50%]" src="../assets/Vector.png" alt="">
+                <span>Scattered Notes</span>
+                <p class="text-gray-400 font-semibold text-sm">Your ideas live in 10 different apps, none of them
+                    connected.</p>
+            </section>
+
+            <!-- card2 -->
+            <section class="bg-white w-80 flex flex-col justify-center items-center gap-4 p-8 rounded-lg">
+                <img class="w-16 h-16 p-4 bg-red-500 rounded-[50%]" src="../assets/Bookmarks.png" alt="">
+                <span>Scattered Notes</span>
+                <p class="text-gray-400 font-semibold text-sm">Your ideas live in 10 different apps, none of them
+                    connected.</p>
+            </section>
+            <!-- card3 -->
+            <section class="bg-white w-80 flex flex-col justify-center items-center gap-4 p-8 rounded-lg">
+                <img class="w-16 h-16 p-4 bg-red-500 rounded-[50%]" src="../assets/Brain.png" alt="">
+                <span>Scattered Notes</span>
+                <p class="text-gray-400 font-semibold text-sm">Your ideas live in 10 different apps, none of them
+                    connected.</p>
+            </section>
+            <!-- card4 -->
+            <section class="bg-white w-80 flex flex-col justify-center items-center gap-4 p-8 rounded-lg">
+                <img class="w-16 h-16 p-4 bg-red-500 rounded-[50%]" src="../assets/Info.png" alt="">
+                <span>Scattered Notes</span>
+                <p class="text-gray-400 font-semibold text-sm">Your ideas live in 10 different apps, none of them
+                    connected.</p>
+            </section>
+        </section>
+    </section>
+
+    <!-- content2 -->
+    <section>
+        <img src="../assets/knowledge.png" alt="">
+
+        <!-- sub-content -->
+        <section>
+            <span class="text-gray-100">THE SOLUTION</span>
+            <h3 class="text-2xl font-bold ">Your second brain,<br>
+            structured by design.</h3>
+        </section>
+    </section>
+
+
+</body>
+
+</html>
